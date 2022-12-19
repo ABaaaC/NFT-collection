@@ -4,7 +4,6 @@ import Web3Modal from 'web3modal'
 import { ethers } from 'ethers'
 import styles from '../styles/Home.module.css'
 import { NFT_CONTRACT_ABI, NFT_CONTRACT_ADDRESS } from '../constants'
-import { sign } from 'crypto'
 
 export default function Home() {
 
